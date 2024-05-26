@@ -1,0 +1,6 @@
+@DotentAPI_HostAddress = http://localhost:5162
+
+GET {{DotentAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
