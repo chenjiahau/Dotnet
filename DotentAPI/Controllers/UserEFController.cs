@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+
 using DotnetAPI.Dots;
 using DotnetAPI.Models;
 using DotnetAPI.Data;
@@ -9,7 +10,7 @@ namespace DotnetAPI.Controllers;
 [Route("[controller]")]
 public class UserEFController : ControllerBase
 {
-    DataContextEF _entityFramework;  
+    DataContextEF _entityFramework;
 
     public UserEFController(IConfiguration config)
     {

@@ -1,4 +1,4 @@
-namespace DotnetAPI.Data;
+namespace DotnetAPI.Dots;
 
 public class UserDots
 {
